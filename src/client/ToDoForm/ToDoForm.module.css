@@ -1,0 +1,36 @@
+.input {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  border: 10px solid rgba(37, 172, 129, 0.63);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.5);
+  appearance: none;
+  outline: none;
+  color: #333;
+  width: 300px;
+}
+
+.Btn {
+  display: block;
+  background-color: teal;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 15px 32px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  color: #fff;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.rowInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
