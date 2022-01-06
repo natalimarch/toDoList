@@ -1,18 +1,18 @@
-import { nanoid } from "nanoid";
+import uniqid from "uniqid";
 
 export const items = [
   {
-    id: nanoid(),
+    id: uniqid(),
     to: "/",
     text: "Main",
   },
   {
-    id: nanoid(),
+    id: uniqid(),
     to: "/create-todo",
     text: "Create ToDo",
   },
   {
-    id: nanoid(),
+    id: uniqid(),
     to: "/todo",
     text: "ToDo",
   },

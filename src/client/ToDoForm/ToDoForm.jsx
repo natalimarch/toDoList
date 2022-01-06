@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { nanoid } from "nanoid";
+// import { nanoid } from "nanoid";
+import uniqid from "uniqid";
 import { initialState } from "./initialState";
 
 import styles from "./ToDoForm.module.css";
@@ -19,7 +20,7 @@ const ToDoForm = ({ onSubmit }) => {
     setData(initialState);
   };
 
-  const doId = nanoid();
+  const doId = uniqid();
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
